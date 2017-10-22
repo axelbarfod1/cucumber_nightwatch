@@ -1,0 +1,61 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Yahoo Search",
+    "line": 2,
+    "id": "yahoo-search",
+    "tags": [],
+    "uri": "features/yahoo.feature",
+    "elements": [
+      {
+        "id": "yahoo-search;searching-yahoo",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Searching Yahoo",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open Yahoo`s search page",
+            "match": {
+              "location": "features/step_definitions/yahoo.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the title is \"Yahoo\"",
+            "match": {
+              "location": "features/step_definitions/yahoo.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the Yahoo search form exists",
+            "match": {
+              "location": "features/step_definitions/yahoo.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 87
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

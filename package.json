@@ -1,0 +1,29 @@
+{
+  "name": "nightwatchexampleaxel",
+  "version": "1.0.0",
+  "description": "Prueba de axel haciendo cucumber con night watch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "e2e-test": "nightwatch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/axelbarfod1"
+  },
+  "keywords": [
+    "cucumber"
+  ],
+  "author": "Axel Barfod",
+  "license": "MIT",
+  "dependencies": {
+    "chromedriver": "^2.33.0",
+    "chai": "^4.1.2",
+    "cucumber": "^3.0.6",
+    "nightwatch": "^0.9.16",
+    "nightwatch-cucumber": "^8.2.6",
+    "selenium-server": "3.5.3",
+    "mocha": "^4.0.1",
+    "phantomjs-prebuilt": "^2.1.15"
+  }
+}
