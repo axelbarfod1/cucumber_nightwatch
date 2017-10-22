@@ -12,14 +12,11 @@ defineSupportCode(({Given, Then, When}) => {
 
     });
 
-   /* Then(/^the title is "([^"]*)"$/, (title) => {
-        return client.assert.title(title);
-    });*/
-
     Then(/^the Google search form exists$/, () => {
+
         const google = client.page.google()
-        google.waitForElementVisible('@searchbar', 1000)
-        return google.assert.visible('@searchbar')
+        google.waitForElementVisible('@searchBar', 1000)
+        return google.assert.visible('@searchBar')
     });
 
 });

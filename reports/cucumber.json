@@ -1,8 +1,67 @@
 [
   {
     "keyword": "Feature",
+    "name": "Google Search",
+    "line": 1,
+    "id": "google-search",
+    "tags": [],
+    "uri": "features/google.feature",
+    "elements": [
+      {
+        "id": "google-search;searching-google",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Searching Google",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I open Google's search page",
+            "match": {
+              "location": "features/step_definitions/google_steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3629
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the title is \"Google\"",
+            "match": {
+              "location": "features/step_definitions/yahoo.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the Google search form exists",
+            "match": {
+              "location": "features/step_definitions/google_steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 110
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
     "name": "Yahoo Search",
-    "line": 2,
+    "line": 1,
     "id": "yahoo-search",
     "tags": [],
     "uri": "features/yahoo.feature",
@@ -10,7 +69,7 @@
       {
         "id": "yahoo-search;searching-yahoo",
         "keyword": "Scenario",
-        "line": 4,
+        "line": 3,
         "name": "Searching Yahoo",
         "tags": [],
         "type": "scenario",
@@ -18,40 +77,40 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 6,
+            "line": 5,
             "name": "I open Yahoo`s search page",
             "match": {
               "location": "features/step_definitions/yahoo.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 24708
+              "duration": 19621
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 7,
+            "line": 6,
             "name": "the title is \"Yahoo\"",
             "match": {
               "location": "features/step_definitions/yahoo.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 27
+              "duration": 11
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 8,
+            "line": 7,
             "name": "the Yahoo search form exists",
             "match": {
               "location": "features/step_definitions/yahoo.js:17"
             },
             "result": {
               "status": "passed",
-              "duration": 87
+              "duration": 55
             }
           }
         ]

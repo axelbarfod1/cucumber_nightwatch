@@ -1,4 +1,3 @@
-
 Feature: Yahoo Search
 
   Scenario: Searching Yahoo
